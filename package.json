@@ -1,0 +1,19 @@
+{
+  "name": "collegeexpenseapi",
+  "version": "1.0.0",
+  "description": "API for generating college costs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Ryan Atanasoff",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "csv-parser": "^2.3.0",
+    "express": "^4.17.1"
+  }
+}
